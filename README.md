@@ -1,4 +1,4 @@
-# Kubric- The ScottyLectronica- mods
+# Kubric- The ScottyLectronica- MINT-2
 
 [![Blender](https://github.com/google-research/kubric/actions/workflows/blender.yml/badge.svg?branch=main)](https://github.com/google-research/kubric/actions/workflows/blender.yml)
 [![Kubruntu](https://github.com/google-research/kubric/actions/workflows/kubruntu.yml/badge.svg?branch=main)](https://github.com/google-research/kubric/actions/workflows/kubruntu.yml)
@@ -6,8 +6,8 @@
 [![Coverage](https://badgen.net/codecov/c/github/google-research/kubric)](https://codecov.io/github/google-research/kubric)
 [![Docs](https://readthedocs.org/projects/kubric/badge/?version=latest)](https://kubric.readthedocs.io/en/latest/)
 
-A data generation pipeline for creating semi-realistic synthetic multi-object 
-videos with rich annotations such as instance segmentation masks, depth maps, 
+A data generation pipeline for creating semi-realistic synthetic multi-object
+videos with rich annotations such as instance segmentation masks, depth maps,
 and optical flow.
 
 
@@ -38,10 +38,10 @@ ls output
 ```
 
 ## Requirements
-- A pipeline for conveniently generating video data. 
+- A pipeline for conveniently generating video data.
 - Physics simulation for automatically generating physical interactions between multiple objects.
 - Good control over the complexity of the generated data, so that we can evaluate individual aspects such as variability of objects and textures.
-- Realism: Ideally, the ability to span the entire complexity range from CLEVR all the way to real-world video such as YouTube8. This is clearly not feasible, but we would like to get as close as possible. 
+- Realism: Ideally, the ability to span the entire complexity range from CLEVR all the way to real-world video such as YouTube8. This is clearly not feasible, but we would like to get as close as possible.
 - Access to rich ground truth information about the objects in a scene for the purpose of evaluation (eg. object segmentations and properties)
 - Control the train/test split to evaluate compositionality and systematic generalization (for example on held-out combinations of features or objects)
 
@@ -59,7 +59,7 @@ ls output
 ## Bibtex
 ```
 @article{greff2021kubric,
-    title = {Kubric: a scalable dataset generator}, 
+    title = {Kubric: a scalable dataset generator},
     author = {Klaus Greff and Francois Belletti and Lucas Beyer and Carl Doersch and
               Yilun Du and Daniel Duckworth and David J Fleet and Dan Gnanapragasam and
               Florian Golemo and Charles Herrmann and Thomas Kipf and Abhijit Kundu and
